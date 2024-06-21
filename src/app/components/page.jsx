@@ -32,6 +32,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Lottie from "lottie-react";
 import education from "../components/animate/education.json";
+import ContactsComponent from "./contacts/page";
 function HomePage() {
   useEffect(() => {
     AOS.init({
@@ -217,7 +218,7 @@ function HomePage() {
               </div>
             </div>
           </div>
-
+              {/* <ContactsComponent/> */}
         </div>
         <footer className="mb-12">
           <h1 className="poppins text-center text-gray-400 font-semibold">All rights reserved by &copy; <a href="https://www.fb.com/mkmamun111">Md. Mamun</a></h1>
