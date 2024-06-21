@@ -91,9 +91,9 @@ function HomePage() {
               <figure className="px-10 pt-10">
                 <Image src={'https://res.cloudinary.com/dz3kxnsxr/image/upload/v1718848241/Mamun_Formal_Pic_cu5ewc.png'} width={192} height={192} className="rounded-full shadow-sm"></Image>
               </figure>
-              <div className="card-body space-y-3 items-center text-center">
+              <div className="card-body space-y-2 items-center text-center">
                 <h2 className="card-title">Md. Mamun</h2>
-                <p className="text-gray-400">Front-End Developer / Designer</p>
+                <p className="text-gray-400">Web Developer <br></br>Passionate Full Stack Enthusiast</p>
                 <hr className="w-full" />
                 <div className="flex gap-4">
                   <a href="https://github.com/MamunKhan71" className="btn btn-circle hover:text-white transition-all duration-200">
@@ -141,6 +141,40 @@ function HomePage() {
               </ul>
             </div>
           </div>
+
+          <div className="flex space-y-16 flex-col w-full items-center justify-center">
+            <h1 className="font-bold text-3xl text-center">My Educational Background</h1>
+            <div className="flex flex-col lg:flex-row items-center justify-between gap-12 w-full">
+              <div className="flex-1 w-full flex items-center justify-start">
+                <Lottie animationData={education} loop={true} />
+              </div>
+              <div className="flex-1 w-full flex items-center justify-center">
+                <ol className="relative border-s border-gray-200 dark:border-gray-700 w-full">
+                  <li className="mb-10 ms-4">
+                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                    <time className="mb-1 text-sm font-normal leading-none">2020 - 2024</time>
+                    <h3 className="text-lg font-semibold ">BSc. in Computer Science and Engineering</h3>
+                    <p className="mb-4 text-base font-normal">Daffodil International University</p>
+                    <a className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">CGPA - 3.64 out of 4.00</a>
+                  </li>
+                  <li className="mb-10 ms-4">
+                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                    <time className="mb-1 text-sm font-normal leading-none">2017 - 2019</time>
+                    <h3 className="text-lg font-semibold ">Higher Secondary School Certificate</h3>
+                    <p className="mb-4 text-base font-normal">Uttara High School and College</p>
+                    <a className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">GPA - 3.92 out of 5.00</a>
+                  </li>
+                  <li className="mb-10 ms-4">
+                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+                    <time className="mb-1 text-sm font-normal leading-none">2015 - 2017</time>
+                    <h3 className="text-lg font-semibold ">Secondary School Certificate</h3>
+                    <p className="mb-4 text-base font-normal">Chandina Pilot Model High School</p>
+                    <a className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">GPA - 5.00 out of 5.00</a>
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
           <div className="space-y-24">
             <h1 className="font-bold text-3xl text-center">My Projects</h1>
             <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" className="grid grid-cols-1 lg:grid-cols-2 gap-6">
@@ -185,40 +219,6 @@ function HomePage() {
               ))}
             </div>
           </div>
-          <div className="flex space-y-16 flex-col w-full items-center justify-center">
-            <h1 className="font-bold text-3xl text-center">My Educational Background</h1>
-            <div className="flex flex-col lg:flex-row items-center justify-between gap-12 w-full">
-              <div className="flex-1 w-full flex items-center justify-start">
-                <Lottie animationData={education} loop={true} />
-              </div>
-              <div className="flex-1 w-full flex items-center justify-center">
-                <ol className="relative border-s border-gray-200 dark:border-gray-700 w-full">
-                  <li className="mb-10 ms-4">
-                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none">2020 - 2024</time>
-                    <h3 className="text-lg font-semibold ">BSc. in Computer Science and Engineering</h3>
-                    <p className="mb-4 text-base font-normal">Daffodil International University</p>
-                    <a className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">CGPA - 3.64 out of 4.00</a>
-                  </li>
-                  <li className="mb-10 ms-4">
-                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none">2017 - 2019</time>
-                    <h3 className="text-lg font-semibold ">Higher Secondary School Certificate</h3>
-                    <p className="mb-4 text-base font-normal">Uttara High School and College</p>
-                    <a className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">GPA - 3.92 out of 5.00</a>
-                  </li>
-                  <li className="mb-10 ms-4">
-                    <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
-                    <time className="mb-1 text-sm font-normal leading-none">2015 - 2017</time>
-                    <h3 className="text-lg font-semibold ">Secondary School Certificate</h3>
-                    <p className="mb-4 text-base font-normal">Chandina Pilot Model High School</p>
-                    <a className="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">GPA - 5.00 out of 5.00</a>
-                  </li>
-                </ol>
-              </div>
-            </div>
-          </div>
-              {/* <ContactsComponent/> */}
         </div>
         <footer className="mb-12">
           <h1 className="poppins text-center text-gray-400 font-semibold">All rights reserved by &copy; <a href="https://www.fb.com/mkmamun111">Md. Mamun</a></h1>
